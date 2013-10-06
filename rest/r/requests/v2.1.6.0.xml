@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/requests">Requests</p>
+    <c>pear.ryanmccue.info</c>
+    <v>1.6.0</v>
+    <a>1.6.0</a>
+    <mp>5.2.0</mp>
+    <st>stable</st>
+    <l>ISC</l>
+    <m>rmccue</m>
+    <s>A HTTP library written in PHP, for human beings.</s>
+    <d>Requests is a HTTP library written in PHP, for human beings. It is
+			roughly based on the API from the excellent Requests Python library.
+			Requests is ISC Licensed (similar to the new BSD license) and has
+			no dependencies.</d>
+    <da>2013-08-12 02:10:32</da>
+    <n>
+-
+ </n>
+    <f>165886</f>
+    <g>http://pear.ryanmccue.info/get/Requests-1.6.0</g>
+    <x xlink:href="package.1.6.0.xml"/>
+</r>

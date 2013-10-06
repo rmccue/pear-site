@@ -2,6 +2,6 @@
 <server>
 	<name>pear.ryanmccue.info</name>
 	<summary>Ryan McCue's PEAR Channel</summary>
-	<alias>ryanmccue</alias>
+	<alias>rmccue</alias>
 	<url>http://pear.ryanmccue.info/</url>
 </server>

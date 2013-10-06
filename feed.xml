@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.ryanmccue.info</id>
-    <updated>2012-02-09T00:06:50+10:00</updated>
+    <updated>2013-10-06T23:49:19+10:00</updated>
     <title>Ryan McCue's PEAR Channel Latest Releases</title>
     <link href="http://pear.ryanmccue.info/feed.xml" rel="self" />
     <author>
         <name>http://pear.ryanmccue.info</name>
     </author>
 
-
+    <entry>
+        <title>Requests 1.6.0 (stable)</title>
+        <link href="http://pear.ryanmccue.info/get/Requests-1.6.0.tgz" />
+        <id>http://pear.ryanmccue.info/get/Requests-1.6.0.tgz</id>
+        <author>
+            <name>rmccue</name>
+        </author>
+        <updated>2013-08-12T02:10:32+10:00</updated>
+        <content>
+            Requests is a HTTP library written in PHP, for human beings. It is
+			roughly based on the API from the excellent Requests Python library.
+			Requests is ISC Licensed (similar to the new BSD license) and has
+			no dependencies.
+            
+-
+ 
+        </content>
+    </entry>
 </feed>

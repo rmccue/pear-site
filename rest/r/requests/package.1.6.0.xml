@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Requests</name>
+ <channel>pear.ryanmccue.info</channel>
+ <summary>A HTTP library written in PHP, for human beings.</summary>
+ <description>Requests is a HTTP library written in PHP, for human beings. It is
+			roughly based on the API from the excellent Requests Python library.
+			Requests is ISC Licensed (similar to the new BSD license) and has
+			no dependencies.</description>
+ <lead>
+  <name>Ryan McCue</name>
+  <user>rmccue</user>
+  <email>me+pear@ryanmccue dot info</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-08-12</date>
+ <time>02:10:32</time>
+ <version>
+  <release>1.6.0</release>
+  <api>1.6.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license filesource="LICENSE" uri="https://github.com/rmccue/Requests/blob/master/LICENSE">ISC</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file install-as="Requests/Auth/Basic.php" md5sum="91a2af156a41767cc66e0964833840d6" name="library/Requests/Auth/Basic.php" role="php" />
+   <file install-as="Requests/Auth.php" md5sum="3197d2529dd957b2acc3944f5bfcd64a" name="library/Requests/Auth.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/400.php" md5sum="51e56e878cbb564ab852c978fb35fcd0" name="library/Requests/Exception/HTTP/400.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/401.php" md5sum="3b2ab80eb9cbfd87baa23fc1648e9940" name="library/Requests/Exception/HTTP/401.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/402.php" md5sum="60f859d55150da0b0a7a959ac9f347d6" name="library/Requests/Exception/HTTP/402.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/403.php" md5sum="bcd160e8f70dc76ffbbf6b33b7fe31df" name="library/Requests/Exception/HTTP/403.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/404.php" md5sum="1ed416cc6311835900857973f8923c4d" name="library/Requests/Exception/HTTP/404.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/405.php" md5sum="dd38d182de6d21b2d2ac18b381adf97f" name="library/Requests/Exception/HTTP/405.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/406.php" md5sum="4bc8cb6cef688c729edc3990220006ac" name="library/Requests/Exception/HTTP/406.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/407.php" md5sum="c2c817e9f5d8768bbde4d66a26e6c6b5" name="library/Requests/Exception/HTTP/407.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/408.php" md5sum="403e3164844958c5144f98ecc8b77689" name="library/Requests/Exception/HTTP/408.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/409.php" md5sum="995a1dc469e67e2a3d0b8f9bebfea9b6" name="library/Requests/Exception/HTTP/409.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/410.php" md5sum="71be4f3437dfbadda52f38582184e19b" name="library/Requests/Exception/HTTP/410.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/411.php" md5sum="27a552a1e4160c4df61b2eca5a604796" name="library/Requests/Exception/HTTP/411.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/412.php" md5sum="25b88449dcb7a1a83dd906378aa556c7" name="library/Requests/Exception/HTTP/412.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/413.php" md5sum="e9963cc15dc99059b7d9ff584c17bfd8" name="library/Requests/Exception/HTTP/413.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/414.php" md5sum="bca65d55e2409ef6a5291ed8e6a12368" name="library/Requests/Exception/HTTP/414.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/415.php" md5sum="0258cc0fb05462ea8f11ccaea34a55c3" name="library/Requests/Exception/HTTP/415.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/416.php" md5sum="f931824e39e39617c9aac661804478f8" name="library/Requests/Exception/HTTP/416.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/417.php" md5sum="4270026a1b8e684f5ec0635c47201c23" name="library/Requests/Exception/HTTP/417.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/418.php" md5sum="e7b4b07ef78246b212455a560832d15e" name="library/Requests/Exception/HTTP/418.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/428.php" md5sum="a71dd0c64a8b151d1ad0c6685077fd0e" name="library/Requests/Exception/HTTP/428.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/429.php" md5sum="86df59d7a025971a8f3bba08d4181b0e" name="library/Requests/Exception/HTTP/429.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/431.php" md5sum="44abf0dd0173e7a183ff2abc67edce67" name="library/Requests/Exception/HTTP/431.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/500.php" md5sum="c0afa9c66b6d830a094815f2124dffda" name="library/Requests/Exception/HTTP/500.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/501.php" md5sum="650cdab83034f22d3fe803f5d791a835" name="library/Requests/Exception/HTTP/501.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/502.php" md5sum="7cc83a6c80cf7af9d5217b17fb47ff69" name="library/Requests/Exception/HTTP/502.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/503.php" md5sum="3906f7520861c39f43f46000d45554b4" name="library/Requests/Exception/HTTP/503.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/504.php" md5sum="02d76d8cccaa446293201112908a2aa5" name="library/Requests/Exception/HTTP/504.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/505.php" md5sum="8e5d4109053303e65b2f4364c1ac12de" name="library/Requests/Exception/HTTP/505.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/511.php" md5sum="24b4edc87dc5ccb0d23a7c38c8dd90df" name="library/Requests/Exception/HTTP/511.php" role="php" />
+   <file install-as="Requests/Exception/HTTP/Unknown.php" md5sum="53e024c7f581e34a82bf20aa274a9e6a" name="library/Requests/Exception/HTTP/Unknown.php" role="php" />
+   <file install-as="Requests/Exception/HTTP.php" md5sum="71ef84695414e74ede0ce34558969e31" name="library/Requests/Exception/HTTP.php" role="php" />
+   <file install-as="Requests/Exception.php" md5sum="879bac9efa180085ab33e90e1acc5249" name="library/Requests/Exception.php" role="php" />
+   <file install-as="Requests/Hooker.php" md5sum="0f08c5401425a9615bd19e2f34a5e107" name="library/Requests/Hooker.php" role="php" />
+   <file install-as="Requests/Hooks.php" md5sum="9ad6c5808f435f6f4d0a39a97b03fd24" name="library/Requests/Hooks.php" role="php" />
+   <file install-as="Requests/IDNAEncoder.php" md5sum="ae174ccea66cdebfde35526055e4f009" name="library/Requests/IDNAEncoder.php" role="php" />
+   <file install-as="Requests/IPv6.php" md5sum="915b0ea88e4a435124ae0098fc7663fe" name="library/Requests/IPv6.php" role="php" />
+   <file install-as="Requests/IRI.php" md5sum="87db793de10599ee1affeb34dc83dc37" name="library/Requests/IRI.php" role="php" />
+   <file install-as="Requests/Response/CookieJar.php" md5sum="95b3b321d28eb6a295cba32b3540568c" name="library/Requests/Response/CookieJar.php" role="php" />
+   <file install-as="Requests/Response/Headers.php" md5sum="403746d2c03869da11e24d6858fc89f5" name="library/Requests/Response/Headers.php" role="php" />
+   <file install-as="Requests/Response.php" md5sum="4e561d71cbe13dfb57309a750e42eca1" name="library/Requests/Response.php" role="php" />
+   <file install-as="Requests/Transport/cURL.php" md5sum="75bf51528dfceb96e08deadad579894e" name="library/Requests/Transport/cURL.php" role="php" />
+   <file install-as="Requests/Transport/fsockopen.php" md5sum="95e4f3c4235a09b4dc95143607f039c4" name="library/Requests/Transport/fsockopen.php" role="php" />
+   <file install-as="Requests/Transport.php" md5sum="019c993bce6bed178baf4b5c566cc617" name="library/Requests/Transport.php" role="php" />
+   <file install-as="Requests.php" md5sum="a98f2f26facb82c8efd4b0846bd10828" name="library/Requests.php" role="php" />
+   <file md5sum="bf9d881e089c008ba2d37c7753939193" name="CHANGELOG.md" role="doc" />
+   <file md5sum="57e7ef58f41a0b6e5a7f8689222c51c6" name="LICENSE" role="doc" />
+   <file md5sum="0d0d74dab46615291bd442d1d29ba7e2" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
