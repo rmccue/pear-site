@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
     <p xlink:href="/rest/p/requests">Requests</p>
     <c>pear.ryanmccue.info</c>
-    <v>1.6.0</v>
-    <a>1.6.0</a>
-    <mp>5.2.0</mp>
+    <v>1.6.1</v>
     <st>stable</st>
     <l>ISC</l>
     <m>rmccue</m>
@@ -15,11 +13,9 @@
 			Requests is ISC Licensed (similar to the new BSD license) and has
 			no dependencies.
 	</d>
-    <da>2013-08-12 02:10:32</da>
-    <n>
--
- </n>
-    <f>165886</f>
-    <g>http://pear.ryanmccue.info/get/Requests-1.6.0</g>
-    <x xlink:href="package.1.6.0.xml"/>
+    <da>2021-04-27 18:04:00</da>
+    <n>-</n>
+    <f>166102</f>
+    <g>http://pear.ryanmccue.info/get/Requests-1.6.1</g>
+    <x xlink:href="package.1.6.1.xml"/>
 </r>

@@ -5,9 +5,11 @@
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>ISC</l>
 <s>A HTTP library written in PHP, for human beings.</s>
-<d>Requests is a HTTP library written in PHP, for human beings. It is
+<d>
+			Requests is a HTTP library written in PHP, for human beings. It is
 			roughly based on the API from the excellent Requests Python library.
 			Requests is ISC Licensed (similar to the new BSD license) and has
-			no dependencies.</d>
+			no dependencies.
+	</d>
 <r xlink:href="/rest/r/requests" />
 </p>

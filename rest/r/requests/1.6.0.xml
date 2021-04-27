@@ -7,10 +7,12 @@
     <l>ISC</l>
     <m>rmccue</m>
     <s>A HTTP library written in PHP, for human beings.</s>
-    <d>Requests is a HTTP library written in PHP, for human beings. It is
+    <d>
+			Requests is a HTTP library written in PHP, for human beings. It is
 			roughly based on the API from the excellent Requests Python library.
 			Requests is ISC Licensed (similar to the new BSD license) and has
-			no dependencies.</d>
+			no dependencies.
+	</d>
     <da>2013-08-12 02:10:32</da>
     <n>
 -

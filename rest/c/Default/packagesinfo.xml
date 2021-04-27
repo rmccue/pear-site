@@ -7,14 +7,28 @@
             <ca xlink:href="/rest/c/Default">Default</ca>
             <l>ISC</l>
             <s>A HTTP library written in PHP, for human beings.</s>
-            <d>Requests is a HTTP library written in PHP, for human beings. It is
+            <d>
+			Requests is a HTTP library written in PHP, for human beings. It is
 			roughly based on the API from the excellent Requests Python library.
 			Requests is ISC Licensed (similar to the new BSD license) and has
-			no dependencies.</d>
+			no dependencies.
+	</d>
             <r xlink:href="/rest/r/requests" />
         </p>
 
         <a>
+            <r>
+                <v>1.8.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.7.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.6.1</v>
+                <s>stable</s>
+            </r>
             <r>
                 <v>1.6.0</v>
                 <s>stable</s>
@@ -22,6 +36,18 @@
 
         </a>
 
+        <deps>
+            <v>1.8.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.7.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.6.1</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
         <deps>
             <v>1.6.0</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>

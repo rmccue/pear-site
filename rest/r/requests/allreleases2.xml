@@ -3,6 +3,21 @@
     <p>Requests</p>
     <c>pear.ryanmccue.info</c>
     <r>
+        <v>1.8.0</v>
+        <s>stable</s>
+        <m>5.2.0</m>
+    </r>
+    <r>
+        <v>1.7.0</v>
+        <s>stable</s>
+        <m>5.2.0</m>
+    </r>
+    <r>
+        <v>1.6.1</v>
+        <s>stable</s>
+        <m>5.2.0</m>
+    </r>
+    <r>
         <v>1.6.0</v>
         <s>stable</s>
         <m>5.2.0</m>

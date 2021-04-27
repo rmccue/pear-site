@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.0" version="2.0"
+	xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+				http://pear.php.net/dtd/tasks-1.0.xsd
+				http://pear.php.net/dtd/package-2.0
+				http://pear.php.net/dtd/package-2.0.xsd">
+	<name>Requests</name>
+	<channel>pear.ryanmccue.info</channel>
+	<summary>A HTTP library written in PHP, for human beings.</summary>
+	<description>
+			Requests is a HTTP library written in PHP, for human beings. It is
+			roughly based on the API from the excellent Requests Python library.
+			Requests is ISC Licensed (similar to the new BSD license) and has
+			no dependencies.
+	</description>
+	<lead>
+		<name>Ryan McCue</name>
+		<user>rmccue</user>
+		<email>me+pear@ryanmccue dot info</email>
+		<active>yes</active>
+	</lead>
+	<date>2021-04-27</date>
+	<time>18:04:00</time>
+	<version>
+		<release>1.6.1</release>
+		<api>1.6.1</api>
+	</version>
+	<stability>
+		<release>stable</release>
+		<api>stable</api>
+	</stability>
+	<license uri="https://github.com/rmccue/Requests/blob/master/LICENSE" filesource="LICENSE">ISC</license>
+	<notes>-</notes>
+	<contents>
+		<dir name="/">
+			<file name="CHANGELOG.md" role="doc" />
+			<file name="LICENSE" role="doc" />
+			<file name="README.md" role="doc" />
+			<dir name="library">
+				<file install-as="Requests.php" name="Requests.php" role="php" />
+				<dir name="Requests">
+					<file install-as="Requests/Session.php" name="Session.php" role="php" />
+					<file install-as="Requests/Hooker.php" name="Hooker.php" role="php" />
+					<file install-as="Requests/IDNAEncoder.php" name="IDNAEncoder.php" role="php" />
+					<file install-as="Requests/Exception.php" name="Exception.php" role="php" />
+					<file install-as="Requests/Cookie.php" name="Cookie.php" role="php" />
+					<file install-as="Requests/Cookie/Jar.php" name="Cookie/Jar.php" role="php" />
+					<file install-as="Requests/Hooks.php" name="Hooks.php" role="php" />
+					<file install-as="Requests/IRI.php" name="IRI.php" role="php" />
+					<file install-as="Requests/Transport/cURL.php" name="Transport/cURL.php" role="php" />
+					<file install-as="Requests/Transport/fsockopen.php" name="Transport/fsockopen.php" role="php" />
+					<file install-as="Requests/Auth/Basic.php" name="Auth/Basic.php" role="php" />
+					<file install-as="Requests/SSL.php" name="SSL.php" role="php" />
+					<file install-as="Requests/Transport.php" name="Transport.php" role="php" />
+					<file install-as="Requests/Auth.php" name="Auth.php" role="php" />
+					<file install-as="Requests/Proxy/HTTP.php" name="Proxy/HTTP.php" role="php" />
+					<file install-as="Requests/Response/Headers.php" name="Response/Headers.php" role="php" />
+					<file install-as="Requests/Proxy.php" name="Proxy.php" role="php" />
+					<file install-as="Requests/IPv6.php" name="IPv6.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/410.php" name="Exception/HTTP/410.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/417.php" name="Exception/HTTP/417.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/501.php" name="Exception/HTTP/501.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/414.php" name="Exception/HTTP/414.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/505.php" name="Exception/HTTP/505.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/415.php" name="Exception/HTTP/415.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/405.php" name="Exception/HTTP/405.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/Unknown.php" name="Exception/HTTP/Unknown.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/409.php" name="Exception/HTTP/409.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/511.php" name="Exception/HTTP/511.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/411.php" name="Exception/HTTP/411.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/428.php" name="Exception/HTTP/428.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/503.php" name="Exception/HTTP/503.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/403.php" name="Exception/HTTP/403.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/402.php" name="Exception/HTTP/402.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/504.php" name="Exception/HTTP/504.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/418.php" name="Exception/HTTP/418.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/407.php" name="Exception/HTTP/407.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/408.php" name="Exception/HTTP/408.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/413.php" name="Exception/HTTP/413.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/401.php" name="Exception/HTTP/401.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/429.php" name="Exception/HTTP/429.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/406.php" name="Exception/HTTP/406.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/400.php" name="Exception/HTTP/400.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/431.php" name="Exception/HTTP/431.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/416.php" name="Exception/HTTP/416.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/412.php" name="Exception/HTTP/412.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/404.php" name="Exception/HTTP/404.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/502.php" name="Exception/HTTP/502.php" role="php" />
+					<file install-as="Requests/Exception/HTTP/500.php" name="Exception/HTTP/500.php" role="php" />
+					<file install-as="Requests/Exception/HTTP.php" name="Exception/HTTP.php" role="php" />
+					<file install-as="Requests/Response.php" name="Response.php" role="php" />
+					<file install-as="Requests/Utility/FilteredIterator.php" name="Utility/FilteredIterator.php" role="php" />
+					<file install-as="Requests/Utility/CaseInsensitiveDictionary.php" name="Utility/CaseInsensitiveDictionary.php" role="php" />
+				</dir>
+			</dir>
+			<file name="library/Requests/Transport/cacert.pem" install-as="library/Requests/Transport/cacert.pem" role="data" />
+		</dir>
+	</contents>
+	<dependencies>
+		<required>
+			<php>
+				<min>5.2.0</min>
+			</php>
+			<pearinstaller>
+				<min>1.4.0</min>
+			</pearinstaller>
+		</required>
+	</dependencies>
+	<phprelease />
+</package>

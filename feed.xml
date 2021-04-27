@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.ryanmccue.info</id>
-    <updated>2013-10-06T23:49:19+10:00</updated>
+    <updated>2021-04-27T19:50:39+01:00</updated>
     <title>Ryan McCue's PEAR Channel Latest Releases</title>
     <link href="http://pear.ryanmccue.info/feed.xml" rel="self" />
     <author>
@@ -9,18 +9,71 @@
     </author>
 
     <entry>
+        <title>Requests 1.8.0 (stable)</title>
+        <link href="http://pear.ryanmccue.info/get/Requests-1.8.0.tgz" />
+        <id>http://pear.ryanmccue.info/get/Requests-1.8.0.tgz</id>
+        <author>
+            <name>rmccue</name>
+        </author>
+        <updated>2021-04-27T18:04:00+01:00</updated>
+        <content>
+            
+			Requests is a HTTP library written in PHP, for human beings. It is
+			roughly based on the API from the excellent Requests Python library.
+			Requests is ISC Licensed (similar to the new BSD license) and has
+			no dependencies.
+	
+            -
+        </content>
+    </entry>    <entry>
+        <title>Requests 1.7.0 (stable)</title>
+        <link href="http://pear.ryanmccue.info/get/Requests-1.7.0.tgz" />
+        <id>http://pear.ryanmccue.info/get/Requests-1.7.0.tgz</id>
+        <author>
+            <name>rmccue</name>
+        </author>
+        <updated>2021-04-27T18:04:00+01:00</updated>
+        <content>
+            
+			Requests is a HTTP library written in PHP, for human beings. It is
+			roughly based on the API from the excellent Requests Python library.
+			Requests is ISC Licensed (similar to the new BSD license) and has
+			no dependencies.
+	
+            -
+        </content>
+    </entry>    <entry>
+        <title>Requests 1.6.1 (stable)</title>
+        <link href="http://pear.ryanmccue.info/get/Requests-1.6.1.tgz" />
+        <id>http://pear.ryanmccue.info/get/Requests-1.6.1.tgz</id>
+        <author>
+            <name>rmccue</name>
+        </author>
+        <updated>2021-04-27T18:04:00+01:00</updated>
+        <content>
+            
+			Requests is a HTTP library written in PHP, for human beings. It is
+			roughly based on the API from the excellent Requests Python library.
+			Requests is ISC Licensed (similar to the new BSD license) and has
+			no dependencies.
+	
+            -
+        </content>
+    </entry>    <entry>
         <title>Requests 1.6.0 (stable)</title>
         <link href="http://pear.ryanmccue.info/get/Requests-1.6.0.tgz" />
         <id>http://pear.ryanmccue.info/get/Requests-1.6.0.tgz</id>
         <author>
             <name>rmccue</name>
         </author>
-        <updated>2013-08-12T02:10:32+10:00</updated>
+        <updated>2013-08-12T02:10:32+01:00</updated>
         <content>
-            Requests is a HTTP library written in PHP, for human beings. It is
+            
+			Requests is a HTTP library written in PHP, for human beings. It is
 			roughly based on the API from the excellent Requests Python library.
 			Requests is ISC Licensed (similar to the new BSD license) and has
 			no dependencies.
+	
             
 -
  
