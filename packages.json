@@ -1,6 +1,31 @@
 {
     "pear-rmccue\/Requests": {
         "versions": {
+            "1.8.1": {
+                "name": "pear-rmccue\/Requests",
+                "description": "A HTTP library written in PHP, for human beings.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.ryanmccue.info\/get\/Requests-1.8.1.tgz"
+                },
+                "version": "1.8.1",
+                "time": "2021-06-04T10:06:00+02:00",
+                "require": {
+                    "php": ">=5.2.0"
+                },
+                "authors": [
+                    {
+                        "name": "Ryan McCue",
+                        "email": "me+pear@ryanmccue dot info",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                }
+            },
             "1.8.0": {
                 "name": "pear-rmccue\/Requests",
                 "description": "A HTTP library written in PHP, for human beings.",
@@ -9,7 +34,7 @@
                     "url": "http:\/\/pear.ryanmccue.info\/get\/Requests-1.8.0.tgz"
                 },
                 "version": "1.8.0",
-                "time": "2021-04-27T18:04:00+01:00",
+                "time": "2021-04-27T18:04:00+02:00",
                 "require": {
                     "php": ">=5.2.0"
                 },
@@ -34,7 +59,7 @@
                     "url": "http:\/\/pear.ryanmccue.info\/get\/Requests-1.7.0.tgz"
                 },
                 "version": "1.7.0",
-                "time": "2021-04-27T18:04:00+01:00",
+                "time": "2021-04-27T18:04:00+02:00",
                 "require": {
                     "php": ">=5.2.0"
                 },
@@ -59,7 +84,7 @@
                     "url": "http:\/\/pear.ryanmccue.info\/get\/Requests-1.6.1.tgz"
                 },
                 "version": "1.6.1",
-                "time": "2021-04-27T18:04:00+01:00",
+                "time": "2021-04-27T18:04:00+02:00",
                 "require": {
                     "php": ">=5.2.0"
                 },
@@ -84,7 +109,7 @@
                     "url": "http:\/\/pear.ryanmccue.info\/get\/Requests-1.6.0.tgz"
                 },
                 "version": "1.6.0",
-                "time": "2013-08-12T02:10:32+01:00",
+                "time": "2013-08-12T02:10:32+02:00",
                 "require": {
                     "php": ">=5.2.0"
                 },
